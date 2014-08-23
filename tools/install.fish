@@ -31,6 +31,7 @@ end
 
 colored blue "Using the Oh My Fish template file and adding it to ~/.config/fish/config.fish"
 cp ~/.oh-my-fish/templates/config.fish ~/.config/fish/config.fish
+cp -r ~/.oh-my-fish/functions ~/.config/fish/function
 
 colored green \
 '          _
